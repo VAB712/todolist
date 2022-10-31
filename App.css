@@ -1,0 +1,107 @@
+.Todo-list-container{
+    display: flex;
+    background: rgba(31, 218, 247, 0.614);
+    margin: 5rem;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60rem;
+    border : 1px solid black;
+    min-width: 50rem;
+    border-radius: 1.5rem;
+    padding-bottom: 3rem;
+    padding-right: 1rem;
+}
+
+.todo-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 2rem;
+    margin: 3rem;
+}
+
+.todo-btn{
+    border: 1px solid black;
+    border-radius: 1.5rem;
+    height: 5rem;
+    width: 5rem;
+    background: rgba(255, 132, 0, 0.731);
+}
+
+.todo-btn:hover{
+    height: 6rem;
+    width: 6rem;
+}
+
+input{
+    margin: 0;
+    padding: 0;
+    border-radius: 1.5rem;
+}
+
+.todo-form input{
+    font-size: 3.5rem;
+}
+
+
+
+.todo-form button{
+    border: 0;
+    background-color: white;
+}
+
+#imp{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    border: 1px dotted grey;
+    border-radius: 1.5rem;
+    background: rgb(242, 103, 103);
+    color: blue;
+    font-family: "Trirong", serif;
+}
+
+.tick{
+    background: rgb(223, 248, 4);
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+}
+
+.tick:hover{
+    background: rgba(81, 255, 0, 0.712);
+}
+
+.todo-text{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-left: 1.5rem;
+    margin-right: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.deleteAll{
+    height: 5rem;
+    width: 40%;
+    font-size: 3.5rem;
+    align-self: center;
+    margin-left: 15rem ;
+    border: 0.5rem solid red;
+}
+
+.deleteAll:hover{
+    background: rgba(255, 0, 0, 0.336);
+    color: white;
+}
